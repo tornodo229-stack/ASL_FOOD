@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html lang="uz" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASL FOOD OILAVIY | Rasmiy Menyu & Onlayn Buyurtma</title>
+  
+  <!-- SEO & Meta teglari -->
+  <meta name="description" content="ASL FOOD OILAVIY Kafe - Furqat tumani, Navbaxor shaharchasi. Mazali pitsa, burger, tandir lavash, qarsildoq qanotcha va to'yimli taomlar. Taksi orqali 30 daqiqada yetkazib beramiz!">
+  <meta name="theme-color" content="#662C8E">
+
+  <!-- Favicon (Brand Book rasmiy emblemasi) -->
+  <link rel="icon" type="image/png" href="assets/brand_badge_purple.png">
+  <link rel="apple-touch-icon" href="assets/brand_badge_purple.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Ikonkalari (v6.5.1) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              coral: '#F26C45',
+              orange: '#F68A24',
+              purple: '#662C8E',
+              400: '#fb923c',
+              500: '#F26C45',
+              600: '#ea580c',
+              700: '#c2410c',
+            }
+          },
+          animation: {
+            'blob': 'blob 8s infinite',
+            'bounce-subtle': 'bounceSubtle 2s infinite',
+          },
+          keyframes: {
+            blob: {
+              '0%': { transform: 'translate(0px, 0px) scale(1)' },
+              '33%': { transform: 'translate(30px, -30px) scale(1.08)' },
+              '66%': { transform: 'translate(-20px, 20px) scale(0.92)' },
+              '100%': { transform: 'translate(0px, 0px) scale(1)' },
+            },
+            bounceSubtle: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-4px)' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Maxsus uslublar (Glassmorphism & Scrollbar) -->
+  <style>
+    * {
+      transition: background-color 0.25s ease, border-color 0.25s ease;
+    }
+    
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(249, 115, 22, 0.45);
+      border-radius: 9999px;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .dark .glass-card {
+      background: rgba(24, 24, 27, 0.78);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .glass-pill {
+      background: rgba(255, 255, 255, 0.78);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .dark .glass-pill {
+      background: rgba(18, 18, 20, 0.78);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .story-ring {
+      background: linear-gradient(45deg, #f59e0b, #ea580c, #dc2626);
+    }
+  </style>
+</head>
+<body class="font-sans antialiased text-slate-800 dark:text-slate-100 bg-orange-50/40 dark:bg-zinc-950 min-h-screen relative overflow-x-hidden selection:bg-orange-500 selection:text-white pb-32 sm:pb-24">
+
+  <!-- ORQA FON AMBIENT GLOW EFFEKTI (Brand Book: #F26C45, #662C8E, #F68A24) -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+    <div class="absolute -top-32 -left-20 w-80 h-80 bg-[#F26C45]/20 dark:bg-[#F26C45]/15 rounded-full blur-3xl animate-blob"></div>
+    <div class="absolute top-1/4 -right-20 w-84 h-84 bg-[#662C8E]/25 dark:bg-[#662C8E]/30 rounded-full blur-3xl animate-blob" style="animation-delay: 2.5s;"></div>
+    <div class="absolute -bottom-20 left-1/4 w-96 h-96 bg-[#F68A24]/20 dark:bg-[#F68A24]/15 rounded-full blur-3xl animate-blob" style="animation-delay: 5s;"></div>
+  </div>
+
+  <!-- ASOSIY KONTEYNER -->
+  <div class="relative z-10 max-w-lg mx-auto min-h-screen px-4 py-5 flex flex-col justify-between">
+
+    <div>
+      <!-- 1. YUQORI BOSHQARUV PANELI -->
+      <header class="flex items-center justify-between mb-5">
+        <!-- Brend nishoni (Brand Book rasmiy emblemasi) -->
+        <div class="flex items-center gap-2.5">
+          <img src="assets/brand_badge_purple.png" alt="ASL" class="w-9 h-9 rounded-full object-cover shadow-md shadow-purple-900/30 border-2 border-[#F26C45]/50" />
+          <div>
+            <span class="text-xs font-black uppercase tracking-wider text-[#F26C45] dark:text-[#F68A24] block leading-tight">
+              ASL FOOD
+            </span>
+            <span class="text-[10px] text-slate-500 dark:text-slate-400 font-medium">Oilaviy Kafe</span>
+          </div>
+        </div>
+
+        <!-- Boshqaruv tugmalari -->
+        <div class="flex items-center gap-2">
+          <!-- Savat ochish mini tugmasi -->
+          <button 
+            id="headerCartBtn" 
+            title="Savatni ko'rish"
+            aria-label="Savat"
+            class="relative glass-pill w-10 h-10 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-200 hover:text-orange-500 dark:hover:text-orange-400 hover:scale-105 active:scale-95 transition-all shadow-sm">
+            <i class="fa-solid fa-cart-shopping text-sm"></i>
+            <span id="headerCartCount" class="hidden absolute -top-1 -right-1 w-5 h-5 rounded-full bg-orange-600 text-white text-[10px] font-black flex items-center justify-center shadow">0</span>
+          </button>
+
+          <!-- QR Kod tugmasi -->
+          <button 
+            id="qrCodeBtn" 
+            title="QR Kodni ochish"
+            aria-label="QR Kod"
+            class="glass-pill w-10 h-10 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-200 hover:text-orange-500 dark:hover:text-orange-400 hover:scale-105 active:scale-95 transition-all shadow-sm">
+            <i class="fa-solid fa-qrcode text-base"></i>
+          </button>
+
+          <!-- Havolani ulashish -->
+          <button 
+            id="copyLinkBtn" 
+            title="Sahifani ulashish"
+            aria-label="Sahifani ulashish"
+            class="glass-pill w-10 h-10 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-200 hover:text-orange-500 dark:hover:text-orange-400 hover:scale-105 active:scale-95 transition-all shadow-sm">
+            <i class="fa-regular fa-share-from-square text-base"></i>
+          </button>
+
+          <!-- Tungi/Kungi rejim -->
+          <button 
+            id="themeToggleBtn" 
+            title="Mavzuni almashtirish"
+            aria-label="Tungi/Kungi rejim"
+            class="glass-pill w-10 h-10 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-200 hover:text-orange-500 dark:hover:text-orange-400 hover:scale-105 active:scale-95 transition-all shadow-sm">
+            <i id="themeIcon" class="fa-solid fa-moon text-base"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- 2. BREND HEADER & PROFIL -->
+      <section class="text-center mb-5">
+        <!-- Logotip (Brand Book rasmiy emblemasi) -->
+        <div class="relative inline-block mx-auto mb-3.5 group">
+          <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-full p-1 bg-gradient-to-tr from-[#662C8E] via-[#F26C45] to-[#F68A24] shadow-2xl shadow-purple-900/30 group-hover:scale-105 transition-transform duration-300">
+            <img 
+              id="brandLogo"
+              src="assets/brand_badge_purple.png" 
+              alt="ASL FOOD Rasmiy Logotipi" 
+              class="w-full h-full object-contain rounded-full shadow-inner"
+            />
+          </div>
+          <!-- Ochiq holat belgisi -->
+          <span class="absolute bottom-2 right-2 w-5 h-5 bg-emerald-500 border-2 border-white dark:border-zinc-900 rounded-full shadow" title="Buyurtmalar qabul qilinmoqda"></span>
+        </div>
+
+        <!-- Kafe nomi va rasmiy nishon -->
+        <div class="flex items-center justify-center gap-1.5 mb-1">
+          <h1 class="text-2xl sm:text-3xl font-black tracking-tight text-slate-900 dark:text-white uppercase">
+            ASL FOOD
+          </h1>
+          <span class="inline-flex text-[#F26C45] dark:text-[#F68A24] text-lg" title="Tasdiqlangan Kafe">
+            <i class="fa-solid fa-circle-check"></i>
+          </span>
+        </div>
+
+        <!-- Brand Book Slogani: tezkor • yangi • qaynoq -->
+        <div class="flex items-center justify-center gap-1.5 mb-2">
+          <span class="text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-[#F26C45]/10 text-[#F26C45] border border-[#F26C45]/25">
+            ⚡ tezkor
+          </span>
+          <span class="text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25">
+            🌿 yangi
+          </span>
+          <span class="text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-[#F68A24]/10 text-[#F68A24] border border-[#F68A24]/25">
+            🔥 qaynoq
+          </span>
+        </div>
+
+        <!-- Qo'shimcha sarlavha -->
+        <p class="text-xs font-bold text-slate-600 dark:text-slate-300 mb-1">
+          Oilaviy Fast Food & Restoran 🍕🍔
+        </p>
+
+        <!-- Lokatsiya va bio -->
+        <p class="text-xs text-slate-600 dark:text-slate-300 max-w-sm mx-auto mb-3 leading-relaxed">
+          <i class="fa-solid fa-location-dot text-[#F26C45] mr-1"></i>
+          <strong>Furqat tumani, Navbaxor shaharchasi</strong><br>
+          Mazali pitsalar, sershira burgerlar, tandir lavash, qarsildoq qanotcha va oilaviy taomlar.
+        </p>
+
+        <!-- Ish vaqti va Dastavka statusi -->
+        <div class="flex flex-wrap items-center justify-center gap-2 text-xs">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full glass-pill text-slate-700 dark:text-slate-300 font-semibold shadow-sm">
+            <i class="fa-regular fa-clock text-[#F68A24]"></i> Har kuni 08:00 — 23:00
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25 font-bold shadow-sm">
+            <i class="fa-solid fa-taxi text-emerald-500"></i> Taksi bilan 30 daqiqada
+          </span>
+        </div>
+      </section>
+
+      <!-- 3. TEZKOR ALOQA TUGMALARI -->
+      <section class="grid grid-cols-2 gap-2.5 mb-5">
+        <!-- Telefon qo'ng'irog'i -->
+        <a 
+          href="tel:+998944480092" 
+          class="group glass-card p-3 rounded-2xl flex items-center gap-3 shadow-sm hover:shadow-lg hover:border-emerald-500/50 hover:scale-[1.02] active:scale-[0.98] transition-all">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center text-lg shadow-md shadow-emerald-500/25 group-hover:rotate-6 transition-transform">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="text-left overflow-hidden">
+            <span class="text-[10px] uppercase font-bold text-slate-400 dark:text-slate-500 block leading-none mb-0.5">Qo'ng'iroq</span>
+            <span class="text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white truncate block">
+              94 448 00 92
+            </span>
+          </div>
+        </a>
+
+        <!-- Telegram buyurtma -->
+        <a 
+          href="https://t.me/ASL_FOOD_OILAVIY" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="group glass-card p-3 rounded-2xl flex items-center gap-3 shadow-sm hover:shadow-lg hover:border-sky-500/50 hover:scale-[1.02] active:scale-[0.98] transition-all">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 text-white flex items-center justify-center text-lg shadow-md shadow-sky-500/25 group-hover:rotate-6 transition-transform">
+            <i class="fa-brands fa-telegram"></i>
+          </div>
+          <div class="text-left overflow-hidden">
+            <span class="text-[10px] uppercase font-bold text-slate-400 dark:text-slate-500 block leading-none mb-0.5">Telegram</span>
+            <span class="text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white truncate block">
+              @ASL_FOOD
+            </span>
+          </div>
+        </a>
+      </section>
+
+      <!-- 4. REELS VA VIDEO LAVHALAR (Stories / Karusel) -->
+      <section class="mb-6">
+        <div class="flex items-center justify-between mb-2.5 px-1">
+          <h2 class="text-xs font-black uppercase tracking-wider text-slate-600 dark:text-slate-400 flex items-center gap-1.5">
+            <i class="fa-solid fa-circle-play text-orange-500"></i> Video Lavhalar & Reels
+          </h2>
+          <span class="text-[10px] font-bold text-orange-600 dark:text-orange-400">Tomosha qilish uchun bosing</span>
+        </div>
+
+        <div class="flex gap-3 overflow-x-auto no-scrollbar py-1" id="reelsContainer">
+          <!-- Video 1: Pitsa -->
+          <div onclick="window.__playReel('assets/videos/pizza.mp4', 'Qaynoq ASL FOOD Pitsasi', 'Issiq pishloq va saralangan go\'sht')" class="flex flex-col items-center shrink-0 cursor-pointer group">
+            <div class="w-16 h-16 rounded-2xl p-0.5 story-ring shadow-md group-hover:scale-105 transition-transform overflow-hidden relative">
+              <div class="w-full h-full rounded-[14px] bg-zinc-900 overflow-hidden relative">
+                <video src="assets/videos/pizza.mp4#t=1" muted playsinline class="w-full h-full object-cover pointer-events-none"></video>
+                <div class="absolute inset-0 bg-black/25 flex items-center justify-center text-white">
+                  <i class="fa-solid fa-play text-xs opacity-90"></i>
+                </div>
+              </div>
+            </div>
+            <span class="text-[11px] font-bold text-slate-800 dark:text-slate-200 mt-1.5 truncate max-w-[70px]">Pitssalar</span>
+          </div>
+
+          <!-- Video 2: Burger va Lavash -->
+          <div onclick="window.__playReel('assets/videos/burger-lavash.mp4', 'Gamburger & Lavash', 'Sershira go\'sht va oshpaz sousi')" class="flex flex-col items-center shrink-0 cursor-pointer group">
+            <div class="w-16 h-16 rounded-2xl p-0.5 story-ring shadow-md group-hover:scale-105 transition-transform overflow-hidden relative">
+              <div class="w-full h-full rounded-[14px] bg-zinc-900 overflow-hidden relative">
+                <video src="assets/videos/burger-lavash.mp4#t=1" muted playsinline class="w-full h-full object-cover pointer-events-none"></video>
+                <div class="absolute inset-0 bg-black/25 flex items-center justify-center text-white">
+                  <i class="fa-solid fa-play text-xs opacity-90"></i>
+                </div>
+              </div>
+            </div>
+            <span class="text-[11px] font-bold text-slate-800 dark:text-slate-200 mt-1.5 truncate max-w-[70px]">Burger</span>
+          </div>
+
+          <!-- Video 3: Chicken Burger -->
+          <div onclick="window.__playReel('assets/videos/chicken-burger.mp4', 'Qarsildoq Chicken Burger', 'Mayin tovuq filesi va xushta\'m salat')" class="flex flex-col items-center shrink-0 cursor-pointer group">
+            <div class="w-16 h-16 rounded-2xl p-0.5 story-ring shadow-md group-hover:scale-105 transition-transform overflow-hidden relative">
+              <div class="w-full h-full rounded-[14px] bg-zinc-900 overflow-hidden relative">
+                <video src="assets/videos/chicken-burger.mp4#t=1" muted playsinline class="w-full h-full object-cover pointer-events-none"></video>
+                <div class="absolute inset-0 bg-black/25 flex items-center justify-center text-white">
+                  <i class="fa-solid fa-play text-xs opacity-90"></i>
+                </div>
+              </div>
+            </div>
+            <span class="text-[11px] font-bold text-slate-800 dark:text-slate-200 mt-1.5 truncate max-w-[70px]">Chicken</span>
+          </div>
+
+          <!-- Video 4: Hot-dog -->
+          <div onclick="window.__playReel('assets/videos/hotdog.mp4', 'Canada & Go\'shtli Xoddog', 'Sershira souslar bilan')" class="flex flex-col items-center shrink-0 cursor-pointer group">
+            <div class="w-16 h-16 rounded-2xl p-0.5 story-ring shadow-md group-hover:scale-105 transition-transform overflow-hidden relative">
+              <div class="w-full h-full rounded-[14px] bg-zinc-900 overflow-hidden relative">
+                <video src="assets/videos/hotdog.mp4#t=1" muted playsinline class="w-full h-full object-cover pointer-events-none"></video>
+                <div class="absolute inset-0 bg-black/25 flex items-center justify-center text-white">
+                  <i class="fa-solid fa-play text-xs opacity-90"></i>
+                </div>
+              </div>
+            </div>
+            <span class="text-[11px] font-bold text-slate-800 dark:text-slate-200 mt-1.5 truncate max-w-[70px]">Hot-dog</span>
+          </div>
+
+          <!-- Video 5: Qanotcha va Fri -->
+          <div onclick="window.__playReel('assets/videos/qanot-fre.mp4', 'Qanotcha & Qarsildoq Fri', 'Maxsus sous va oltinrang stripslar')" class="flex flex-col items-center shrink-0 cursor-pointer group">
+            <div class="w-16 h-16 rounded-2xl p-0.5 story-ring shadow-md group-hover:scale-105 transition-transform overflow-hidden relative">
+              <div class="w-full h-full rounded-[14px] bg-zinc-900 overflow-hidden relative">
+                <video src="assets/videos/qanot-fre.mp4#t=1" muted playsinline class="w-full h-full object-cover pointer-events-none"></video>
+                <div class="absolute inset-0 bg-black/25 flex items-center justify-center text-white">
+                  <i class="fa-solid fa-play text-xs opacity-90"></i>
+                </div>
+              </div>
+            </div>
+            <span class="text-[11px] font-bold text-slate-800 dark:text-slate-200 mt-1.5 truncate max-w-[70px]">Qanotcha</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. DIZAYN MENYU & XARITA TUGMALARI -->
+      <section class="flex gap-2 mb-6">
+        <button 
+          id="openOriginalMenuBtn"
+          class="flex-1 glass-card py-2.5 px-3 rounded-xl flex items-center justify-center gap-2 text-xs font-bold text-orange-600 dark:text-orange-400 hover:bg-orange-500/10 active:scale-95 transition-all border border-orange-500/20">
+          <i class="fa-regular fa-image text-sm"></i>
+          <span>Dizayn Menyu (Rasm & PDF)</span>
+        </button>
+
+        <a 
+          href="https://yandex.uz/maps/?text=Navbaxor+Furqat+tumani+Asl+Food" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="glass-card py-2.5 px-3.5 rounded-xl flex items-center justify-center gap-1.5 text-xs font-bold text-slate-700 dark:text-slate-300 hover:text-rose-500 active:scale-95 transition-all">
+          <i class="fa-solid fa-map-location-dot text-rose-500"></i>
+          <span>Xarita</span>
+        </a>
+      </section>
+
+      <!-- ========================================================
+           6. INTERAKTIV TAOMNOMA (MENYU) BO'LIMI
+           ======================================================== -->
+      <section class="mb-8">
+        
+        <!-- Bo'lim sarlavhasi -->
+        <div class="flex items-center justify-between mb-3.5 px-1">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-6 rounded-full bg-gradient-to-b from-orange-500 to-red-600"></span>
+            <h2 class="text-lg font-black text-slate-900 dark:text-white uppercase tracking-tight">
+              Taomnoma & Narxlar
+            </h2>
+          </div>
+          <span id="menuCountBadge" class="text-xs font-semibold px-2 py-0.5 rounded-full bg-orange-500/10 text-orange-600 dark:text-orange-400 border border-orange-500/20">
+            Yuklanmoqda...
+          </span>
+        </div>
+
+        <!-- Qidiruv maydoni -->
+        <div class="relative mb-3.5">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400">
+            <i class="fa-solid fa-magnifying-glass text-xs"></i>
+          </span>
+          <input 
+            type="text" 
+            id="menuSearchInput" 
+            placeholder="Taom nomini qidirish (lavash, pitsa, burger, fri...)" 
+            class="w-full pl-9 pr-8 py-2.5 rounded-2xl glass-pill text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-orange-500/50 shadow-sm"
+          />
+          <button 
+            id="clearSearchBtn" 
+            class="absolute inset-y-0 right-0 flex items-center pr-3 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hidden">
+            <i class="fa-solid fa-circle-xmark text-xs"></i>
+          </button>
+        </div>
+
+        <!-- Kategoriya Filterlari -->
+        <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-2 mb-4 text-xs font-bold" id="categoryFilters">
+          <button data-cat="all" class="cat-pill active px-3.5 py-1.5 rounded-full whitespace-nowrap bg-orange-600 text-white shadow-md shadow-orange-600/30 transition-all">
+            Barchasi
+          </button>
+          <button data-cat="pizza" class="cat-pill px-3.5 py-1.5 rounded-full whitespace-nowrap glass-pill text-slate-600 dark:text-slate-300 hover:text-orange-500 transition-all">
+            🍕 Pitsa
+          </button>
+          <button data-cat="lavash" class="cat-pill px-3.5 py-1.5 rounded-full whitespace-nowrap glass-pill text-slate-600 dark:text-slate-300 hover:text-orange-500 transition-all">
+            🌯 Lavash & Shovurma
+          </button>
+          <button data-cat="burger" class="cat-pill px-3.5 py-1.5 rounded-full whitespace-nowrap glass-pill text-slate-600 dark:text-slate-300 hover:text-orange-500 transition-all">
+            🍔 Burger
+          </button>
+          <button data-cat="hotdog" class="cat-pill px-3.5 py-1.5 rounded-full whitespace-nowrap glass-pill text-slate-600 dark:text-slate-300 hover:text-orange-500 transition-all">
+            🌭 Hot-dog & Longer
+          </button>
+          <button data-cat="chicken" class="cat-pill px-3.5 py-1.5 rounded-full whitespace-nowrap glass-pill text-slate-600 dark:text-slate-300 hover:text-orange-500 transition-all">
+            🍗 Qanotcha & Strips
+          </button>
+          <button data-cat="sets" class="cat-pill px-3.5 py-1.5 rounded-full whitespace-nowrap glass-pill text-slate-600 dark:text-slate-300 hover:text-orange-500 transition-all">
+            ⭐ Setlar & Maxsus
+          </button>
+          <button data-cat="snacks" class="cat-pill px-3.5 py-1.5 rounded-full whitespace-nowrap glass-pill text-slate-600 dark:text-slate-300 hover:text-orange-500 transition-all">
+            🍟 Gazaklar
+          </button>
+        </div>
+
+        <!-- Taomlar Ro'yxati -->
+        <div id="menuContainer" class="space-y-3">
+          <!-- JS orqali to'ldiriladi -->
+        </div>
+
+        <!-- Bo'sh holat -->
+        <div id="noResultsState" class="hidden text-center py-10 glass-card rounded-2xl">
+          <i class="fa-solid fa-utensils text-3xl text-orange-400 mb-2"></i>
+          <p class="text-sm font-bold text-slate-700 dark:text-slate-300">Taom topilmadi</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Boshqa so'z bilan qidirib ko'ring yoki toifalardan tanlang.</p>
+        </div>
+
+      </section>
+
+      <!-- 7. IJTIMOIY TARMOQLAR -->
+      <section class="space-y-3 mb-8">
+        <!-- Instagram -->
+        <a 
+          href="https://instagram.com/ASL_FOOD_OILAVIY" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="group glass-card flex items-center justify-between p-3.5 rounded-2xl shadow-sm hover:shadow-xl hover:shadow-pink-500/15 hover:border-pink-500/40 hover:-translate-y-0.5 transition-all">
+          <div class="flex items-center gap-3.5">
+            <div class="w-11 h-11 rounded-xl flex items-center justify-center bg-gradient-to-br from-amber-500 via-pink-500 to-purple-600 text-white shadow-md shadow-pink-500/25 group-hover:rotate-6 transition-transform">
+              <i class="fa-brands fa-instagram text-2xl"></i>
+            </div>
+            <div class="text-left">
+              <h3 class="text-sm font-bold text-slate-900 dark:text-white group-hover:text-pink-500 dark:group-hover:text-pink-400 transition-colors">
+                Instagram Sahifamiz
+              </h3>
+              <p class="text-xs text-slate-500 dark:text-slate-400">
+                @ASL_FOOD_OILAVIY • Video lavhalar va jonli jarayon
+              </p>
+            </div>
+          </div>
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 group-hover:text-pink-500 transition-all">
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+          </div>
+        </a>
+
+        <!-- Telegram Kanal -->
+        <a 
+          href="https://t.me/ASL_FOOD_OILAVIY" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="group glass-card flex items-center justify-between p-3.5 rounded-2xl shadow-sm hover:shadow-xl hover:shadow-sky-500/15 hover:border-sky-500/40 hover:-translate-y-0.5 transition-all">
+          <div class="flex items-center gap-3.5">
+            <div class="w-11 h-11 rounded-xl flex items-center justify-center bg-gradient-to-br from-sky-400 to-blue-600 text-white shadow-md shadow-sky-500/25 group-hover:rotate-6 transition-transform">
+              <i class="fa-brands fa-telegram text-2xl"></i>
+            </div>
+            <div class="text-left">
+              <h3 class="text-sm font-bold text-slate-900 dark:text-white group-hover:text-sky-500 dark:group-hover:text-sky-400 transition-colors">
+                Telegram Rasmiy Kanal
+              </h3>
+              <p class="text-xs text-slate-500 dark:text-slate-400">
+                Aksiyalar, yangi taomlar va yangiliklar
+              </p>
+            </div>
+          </div>
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 group-hover:text-sky-500 transition-all">
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+          </div>
+        </a>
+      </section>
+
+    </div>
+
+    <!-- 8. FOOTER BO'LIMI -->
+    <footer class="pt-6 pb-2 text-center border-t border-orange-200/40 dark:border-zinc-800/60">
+      <div class="flex items-center justify-center gap-3 mb-3">
+        <a href="tel:+998944480092" aria-label="Telefon" class="w-9 h-9 rounded-full glass-pill flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-emerald-500 hover:scale-110 active:scale-95 transition-all">
+          <i class="fa-solid fa-phone text-sm"></i>
+        </a>
+        <a href="https://t.me/ASL_FOOD_OILAVIY" target="_blank" rel="noopener noreferrer" aria-label="Telegram" class="w-9 h-9 rounded-full glass-pill flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-sky-500 hover:scale-110 active:scale-95 transition-all">
+          <i class="fa-brands fa-telegram text-base"></i>
+        </a>
+        <a href="https://instagram.com/ASL_FOOD_OILAVIY" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-9 h-9 rounded-full glass-pill flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-pink-500 hover:scale-110 active:scale-95 transition-all">
+          <i class="fa-brands fa-instagram text-base"></i>
+        </a>
+        <a href="https://yandex.uz/maps/?text=Navbaxor+Furqat+tumani+Asl+Food" target="_blank" rel="noopener noreferrer" aria-label="Xarita" class="w-9 h-9 rounded-full glass-pill flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-rose-500 hover:scale-110 active:scale-95 transition-all">
+          <i class="fa-solid fa-location-dot text-sm"></i>
+        </a>
+      </div>
+
+      <p class="text-xs text-slate-600 dark:text-slate-400 font-bold">
+        &copy; <span id="currentYear"></span> ASL FOOD OILAVIY. Barcha huquqlar himoyalangan.
+      </p>
+      <p class="text-[11px] text-orange-600/80 dark:text-orange-400/80 mt-1 font-medium">
+        Har bir taom — mehr bilan tayyorlanadi ❤️
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- ========================================================
+       SUZUVCHI SAVATCHA TUGMASI (Floating Cart Bar)
+       ======================================================== -->
+  <div id="floatingCartBar" class="fixed bottom-4 inset-x-4 max-w-lg mx-auto z-40 hidden animate-bounce-subtle">
+    <button 
+      id="openCartBtn"
+      class="w-full py-3.5 px-5 rounded-2xl bg-gradient-to-r from-orange-600 via-amber-600 to-orange-600 text-white font-extrabold shadow-2xl shadow-orange-600/40 flex items-center justify-between border border-orange-400/30 hover:scale-[1.01] active:scale-[0.98] transition-all">
+      <div class="flex items-center gap-2.5">
+        <span class="w-7 h-7 rounded-full bg-white text-orange-600 flex items-center justify-center text-xs font-black shadow-inner">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </span>
+        <span id="floatingCartText" class="text-xs sm:text-sm">0 ta taom tanlandi</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span id="floatingCartTotal" class="text-sm sm:text-base font-black">0 so'm</span>
+        <i class="fa-solid fa-arrow-right text-xs"></i>
+      </div>
+    </button>
+  </div>
+
+  <!-- ========================================================
+       MODALLAR BO'LIMI
+       ======================================================== -->
+
+  <!-- 1. TO'LIQ SAVATCHA (KORZINA) VA BUYURTMA RASMIYLASHTIRISH MODALI -->
+  <div id="cartModal" class="fixed inset-0 z-50 flex items-center justify-center p-3.5 bg-black/75 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300">
+    <div id="cartModalCard" class="glass-card w-full max-w-md max-h-[92vh] flex flex-col p-5 rounded-3xl shadow-2xl transform scale-95 transition-transform duration-300 bg-white/95 dark:bg-zinc-900/95 border border-white/50 dark:border-zinc-800">
+      
+      <!-- Sarlavha -->
+      <div class="flex items-center justify-between pb-3 border-b border-slate-200/60 dark:border-zinc-800 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="w-8 h-8 rounded-full bg-orange-500/10 text-orange-600 dark:text-orange-400 flex items-center justify-center text-sm font-bold">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </span>
+          <h3 class="text-sm sm:text-base font-black text-slate-900 dark:text-white uppercase">
+            Savatchangiz
+          </h3>
+        </div>
+        <button id="closeCartBtn" class="w-7 h-7 rounded-full glass-pill flex items-center justify-center text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
+          <i class="fa-solid fa-xmark text-xs"></i>
+        </button>
+      </div>
+
+      <!-- Savatcha ro'yxati -->
+      <div id="cartItemsList" class="flex-1 overflow-y-auto space-y-2.5 pr-1 max-h-56">
+        <!-- Dinamik to'ldiriladi -->
+      </div>
+
+      <!-- Bo'sh savat holati -->
+      <div id="emptyCartView" class="hidden text-center py-8">
+        <i class="fa-solid fa-cart-shopping text-4xl text-slate-300 dark:text-zinc-700 mb-2"></i>
+        <p class="text-xs font-bold text-slate-600 dark:text-slate-400">Savatchangiz hozircha bo'sh</p>
+        <p class="text-[11px] text-slate-400 dark:text-slate-500 mt-0.5">Menyudan yoqqan taomlarni qo'shing</p>
+      </div>
+
+      <!-- Mijoz ma'lumotlari kiritish formasi -->
+      <div id="cartOrderForm" class="mt-3 pt-3 border-t border-slate-200/60 dark:border-zinc-800 space-y-2.5">
+        <div>
+          <label class="block text-[10px] font-bold uppercase text-slate-500 dark:text-slate-400 mb-1">Ismingiz va Telefoningiz</label>
+          <div class="grid grid-cols-2 gap-2">
+            <input type="text" id="custName" placeholder="Ismingiz (masalan, Sardor)" class="w-full px-3 py-2 rounded-xl glass-pill text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-orange-500" />
+            <input type="tel" id="custPhone" placeholder="+998 90 123 45 67" class="w-full px-3 py-2 rounded-xl glass-pill text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-orange-500" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-[10px] font-bold uppercase text-slate-500 dark:text-slate-400 mb-1">Yetkazish usuli & Manzil</label>
+          <select id="deliveryType" class="w-full px-3 py-2 rounded-xl glass-pill text-xs text-slate-900 dark:text-white focus:outline-none focus:ring-1 focus:ring-orange-500 mb-1.5">
+            <option value="Taksi orqali yetkazish (30 daqiqa)">🚕 Taksi orqali yetkazish (30 daqiqada)</option>
+            <option value="Kafedan o'zim olib ketaman">🏪 Kafedan o'zim olib ketaman</option>
+          </select>
+          <input type="text" id="custAddress" placeholder="Manzilingiz (masalan, Navbaxor markazi, 5-uy)" class="w-full px-3 py-2 rounded-xl glass-pill text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-orange-500" />
+        </div>
+
+        <!-- Jami narx bloki -->
+        <div class="flex items-center justify-between p-2.5 bg-orange-500/10 dark:bg-orange-500/15 rounded-xl border border-orange-500/20">
+          <span class="text-xs font-bold text-slate-700 dark:text-slate-200">Jami hisob:</span>
+          <span id="cartTotalPrice" class="text-base font-black text-orange-600 dark:text-orange-400">0 so'm</span>
+        </div>
+
+        <!-- Yuborish tugmalari -->
+        <div class="grid grid-cols-2 gap-2 pt-1">
+          <button 
+            id="sendOrderTelegramBtn"
+            class="py-2.5 px-3 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white text-xs font-bold shadow-md shadow-sky-500/25 flex items-center justify-center gap-1.5 active:scale-95 transition-all">
+            <i class="fa-brands fa-telegram text-sm"></i> Telegramda yuborish
+          </button>
+          <a 
+            href="tel:+998944480092"
+            class="py-2.5 px-3 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white text-xs font-bold shadow-md shadow-emerald-500/25 flex items-center justify-center gap-1.5 active:scale-95 transition-all">
+            <i class="fa-solid fa-phone text-xs"></i> Telefon qilish
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 2. REELS & VIDEO TOMOSHA QILISH MODALI -->
+  <div id="videoModal" class="fixed inset-0 z-50 flex items-center justify-center p-3 bg-black/85 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300">
+    <div id="videoModalCard" class="relative w-full max-w-sm rounded-3xl overflow-hidden shadow-2xl bg-zinc-950 border border-white/10 transform scale-95 transition-transform duration-300 flex flex-col">
+      <!-- Tepasi: Yopish va ovoz tugmasi -->
+      <div class="absolute top-3 inset-x-3 z-20 flex items-center justify-between">
+        <button id="toggleVideoMuteBtn" class="w-9 h-9 rounded-full bg-black/50 text-white backdrop-blur flex items-center justify-center text-xs">
+          <i id="muteIcon" class="fa-solid fa-volume-xmark"></i>
+        </button>
+        <button id="closeVideoBtn" class="w-9 h-9 rounded-full bg-black/50 text-white backdrop-blur flex items-center justify-center text-sm">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Asosiy video elementi -->
+      <div class="w-full aspect-[9/16] bg-black flex items-center justify-center relative">
+        <video id="reelsVideoPlayer" playsinline loop class="w-full h-full object-cover"></video>
+      </div>
+
+      <!-- Pastki tavsif va buyurtma paneli -->
+      <div class="p-4 bg-gradient-to-t from-zinc-950 via-zinc-950/90 to-transparent">
+        <h4 id="videoModalTitle" class="text-sm font-black text-white">Taom nomi</h4>
+        <p id="videoModalDesc" class="text-xs text-zinc-300 mb-3">Tavsif</p>
+        <button 
+          id="videoOrderBtn" 
+          class="w-full py-2.5 px-4 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-extrabold shadow-lg shadow-orange-600/30 flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-solid fa-cart-plus"></i> Ushbu taomni buyurtma qilish
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. ORIGINAL MENYU VA PDF MODALI -->
+  <div id="originalMenuModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div id="originalMenuCard" class="glass-card w-full max-w-md max-h-[90vh] flex flex-col p-5 rounded-3xl shadow-2xl transform scale-95 transition-transform duration-300 bg-white/95 dark:bg-zinc-900/95 border border-white/50 dark:border-zinc-800">
+      
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-sm font-black text-slate-900 dark:text-white uppercase flex items-center gap-2">
+          <i class="fa-regular fa-image text-orange-500"></i> Original Dizayn Menyu
+        </h3>
+        <button id="closeOriginalMenuBtn" class="w-7 h-7 rounded-full glass-pill flex items-center justify-center text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
+          <i class="fa-solid fa-xmark text-xs"></i>
+        </button>
+      </div>
+
+      <div class="flex-1 overflow-y-auto space-y-4 pr-1">
+        <div class="rounded-2xl overflow-hidden border border-orange-500/20 shadow-md">
+          <div class="bg-zinc-900 text-white text-xs font-bold px-3 py-1.5 flex items-center justify-between">
+            <span>🍕 Pitsalar menyusi (Dizayn)</span>
+            <a href="assets/menu-pizza.jpg" target="_blank" class="text-orange-400 hover:underline">Kattaroq ko'rish</a>
+          </div>
+          <img src="assets/menu-pizza.jpg" alt="Pitsa menyusi" class="w-full object-cover max-h-72" loading="lazy" />
+        </div>
+
+        <div class="rounded-2xl overflow-hidden border border-orange-500/20 shadow-md">
+          <div class="bg-zinc-900 text-white text-xs font-bold px-3 py-1.5 flex items-center justify-between">
+            <span>🍔 Umumiy Taomnoma (Dizayn)</span>
+            <a href="assets/menu-aslfood.jpg" target="_blank" class="text-orange-400 hover:underline">Kattaroq ko'rish</a>
+          </div>
+          <img src="assets/menu-aslfood.jpg" alt="ASL FOOD menyusi" class="w-full object-cover max-h-72" loading="lazy" />
+        </div>
+
+        <!-- Rasmiy Brand Book preview -->
+        <div class="rounded-2xl overflow-hidden border border-purple-500/30 shadow-md">
+          <div class="bg-purple-950 text-white text-xs font-bold px-3 py-1.5 flex items-center justify-between">
+            <span>🎨 Rasmiy Brand Book (Logo & Ranglar)</span>
+            <a href="assets/preview_p4.png" target="_blank" class="text-orange-400 hover:underline">Kattaroq ko'rish</a>
+          </div>
+          <img src="assets/preview_p4.png" alt="ASL FOOD Brand Book" class="w-full object-cover max-h-72" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="mt-4 pt-3 border-t border-slate-200/60 dark:border-zinc-800 space-y-2">
+        <a 
+          href="assets/menu-pitsa-a3.pdf" 
+          download="ASL-FOOD-Pitsa-Menyu-A3.pdf"
+          class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white text-xs font-bold shadow-md shadow-orange-600/30 flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-solid fa-pizza-slice"></i> Yangi Pitsa Menyu (A3 PDF) yuklab olish
+        </a>
+        <a 
+          href="assets/menu-fastfood-a3.pdf" 
+          download="ASL-FOOD-FastFood-Menyu-A3.pdf"
+          class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white text-xs font-bold shadow-md shadow-amber-600/30 flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-solid fa-burger"></i> Yangi Fast Food Menyu (A3 PDF) yuklab olish
+        </a>
+        <a 
+          href="assets/brand-book.pdf" 
+          download="ASL-FOOD-BrandBook.pdf"
+          class="w-full py-2 px-4 rounded-xl bg-gradient-to-r from-[#662C8E] to-purple-800 hover:to-purple-900 text-white text-xs font-bold shadow-md shadow-purple-900/30 flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-solid fa-palette"></i> Rasmiy Brand Book (29 sahifa)
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 4. QR-KOD MODAL OYNASI -->
+  <div id="qrModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div id="qrModalCard" class="glass-card w-full max-w-xs p-6 rounded-3xl shadow-2xl text-center transform scale-95 transition-transform duration-300 bg-white/95 dark:bg-zinc-900/95 border border-white/50 dark:border-zinc-800">
+      
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-sm font-bold text-slate-900 dark:text-white flex items-center gap-2">
+          <i class="fa-solid fa-qrcode text-orange-500"></i> Sahifa QR-kodi
+        </h3>
+        <button id="closeQrModalBtn" class="w-7 h-7 rounded-full glass-pill flex items-center justify-center text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
+          <i class="fa-solid fa-xmark text-xs"></i>
+        </button>
+      </div>
+
+      <div class="p-3 bg-white rounded-2xl shadow-inner border border-slate-100 flex items-center justify-center mx-auto w-fit mb-3">
+        <img 
+          id="qrImage" 
+          src="" 
+          alt="QR Kod" 
+          class="w-44 h-44 object-contain rounded-lg"
+        />
+      </div>
+
+      <p class="text-xs text-slate-500 dark:text-slate-400 mb-4 leading-relaxed">
+        Kamera bilan skanerlang va <strong>ASL FOOD OILAVIY</strong> menyusini telefoningizda oching.
+      </p>
+
+      <div class="flex gap-2">
+        <button 
+          id="downloadQrBtn"
+          class="flex-1 py-2 px-3 rounded-xl bg-orange-600 hover:bg-orange-700 active:scale-95 text-white text-xs font-semibold shadow-md shadow-orange-600/30 transition-all flex items-center justify-center gap-1.5">
+          <i class="fa-solid fa-download"></i> Saqlash
+        </button>
+        <button 
+          id="copyModalLinkBtn"
+          class="flex-1 py-2 px-3 rounded-xl glass-pill hover:bg-slate-200/50 dark:hover:bg-zinc-800/50 active:scale-95 text-slate-700 dark:text-slate-200 text-xs font-semibold transition-all flex items-center justify-center gap-1.5">
+          <i class="fa-solid fa-link"></i> Havola
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TOAST BILDIRISHNOMA -->
+  <div 
+    id="toastNotification" 
+    class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2.5 px-4 py-3 rounded-full bg-zinc-900/95 dark:bg-white text-white dark:text-zinc-900 shadow-2xl backdrop-blur-md opacity-0 pointer-events-none -translate-y-2 transition-all duration-300 text-xs font-bold">
+    <i class="fa-solid fa-circle-check text-emerald-400 dark:text-emerald-600 text-sm"></i>
+    <span id="toastMessage">Xabar</span>
+  </div>
+
+  <!-- ========================================================
+       JAVASCRIPT MANTIQ, SAVATCHA VA BAZA
+       ======================================================== -->
+  <script>
+    // ASL FOOD HAQIQIY TAOMNOMA BAZASI (Rasmlar & A3 Menyu)
+    const MENU_ITEMS = [
+      // 🍕 PITSALAR
+      {
+        id: 'p1',
+        cat: 'pizza',
+        name: 'Pepperoni Pitssa',
+        desc: "Maxsus achchiq kolbasa, qizargan mozarella pishlog'i va xushbo'y pomidor sousi",
+        prices: { 'Mini': 50000, 'Kichik': 75000, "O'rta": 95000, 'Katta': 115000 },
+        img: 'assets/foods/pizza_pepperoni.jpg',
+        badge: 'Xit'
+      },
+      {
+        id: 'p2',
+        cat: 'pizza',
+        name: 'Tovuqli Pitssa',
+        desc: "Yumshoq marinadlangan tovuq filesi, pishloq, qo'ziqorin va o'zgacha sous",
+        prices: { 'Mini': 50000, 'Kichik': 75000, "O'rta": 95000, 'Katta': 115000 },
+        img: 'assets/foods/pizza_tovuqli.jpg'
+      },
+      {
+        id: 'p3',
+        cat: 'pizza',
+        name: 'Assorti Pitssa',
+        desc: "Go'sht, kolbasa, qo'ziqorin, qora zaytun, bulg'or qalampiri va mo'l pishloq",
+        prices: { 'Mini': 50000, 'Kichik': 80000, "O'rta": 105000, 'Katta': 135000 },
+        img: 'assets/foods/pizza_assorti.jpg',
+        badge: 'Mashhur'
+      },
+      {
+        id: 'p4',
+        cat: 'pizza',
+        name: "Go'shtli Pitssa",
+        desc: "Saralangan mayin mol go'shti, pomidor bo'laklari va maxsus qizil sous",
+        prices: { 'Mini': 50000, 'Kichik': 80000, "O'rta": 105000, 'Katta': 135000 },
+        img: 'assets/foods/pizza_goshtli.jpg'
+      },
+      {
+        id: 'p5',
+        cat: 'pizza',
+        name: 'Eksklyuziv Pitssa',
+        desc: "ASL FOOD maxsus retsepti bo'yicha eng sara go'sht va pishloqlar uyg'unligi",
+        prices: { 'Mini': 50000, 'Kichik': 85000, "O'rta": 115000, 'Katta': 145000 },
+        img: 'assets/foods/pizza_eksklyuziv.jpg',
+        badge: 'Premium'
+      },
+      {
+        id: 'p6',
+        cat: 'pizza',
+        name: 'Qazili Pitssa',
+        desc: "Milliy asil ot go'shti qazisi, erigan mozarella va oshpaz sousi",
+        prices: { 'Mini': 58000, "O'rta": 135000, 'Katta': 155000 },
+        img: 'assets/foods/pizza_qazili.jpg',
+        badge: 'Maxsus'
+      },
+
+      // 🌯 LAVASH VA SHOVURMA
+      {
+        id: 'l1',
+        cat: 'lavash',
+        name: 'Lavash Oddiy',
+        desc: "Yumshoq yupqa xamir, sershira mol go'shti, barra pomidor, bodring, sous va chips",
+        price: 38000,
+        img: 'assets/foods/lavash.jpg'
+      },
+      {
+        id: 'l2',
+        cat: 'lavash',
+        name: 'Lavash Extra',
+        desc: "Ko'proq saralangan go'sht bilan tayyorlangan to'yimli katta lavash",
+        price: 43000,
+        img: 'assets/foods/lavash.jpg',
+        badge: "Ko'p go'sht"
+      },
+      {
+        id: 'l3',
+        cat: 'lavash',
+        name: 'Lavash Cheese (Pishloqli)',
+        desc: "Erigan qalin Chedder pishlog'i va mazali barra go'sht",
+        price: 43000,
+        img: 'assets/foods/lavash.jpg',
+        badge: 'Xit'
+      },
+      {
+        id: 'l4',
+        cat: 'lavash',
+        name: 'Lavash Extra Cheese',
+        desc: "Ikki hissa pishloq va mo'l go'shtli haqiqiy lazzat",
+        price: 50000,
+        img: 'assets/foods/lavash.jpg'
+      },
+      {
+        id: 'l5',
+        cat: 'lavash',
+        name: 'Tandir Lavash',
+        desc: "Tandirda qizartirib, maxsus qarsildoq qilib pishirilgan xushta'm lavash",
+        price: 42000,
+        img: 'assets/foods/lavash.jpg',
+        badge: 'Tandir'
+      },
+      {
+        id: 'l6',
+        cat: 'lavash',
+        name: 'Tandir Lavash Extra',
+        desc: "Tandirda pishirilgan mo'l go'shtli to'yimli lavash",
+        price: 46000,
+        img: 'assets/foods/lavash.jpg'
+      },
+      {
+        id: 'l7',
+        cat: 'lavash',
+        name: 'Shovurma Oddiy',
+        desc: "Yupqa xushta'm nonda barra go'sht va maxsus sous",
+        price: 33000,
+        img: 'assets/foods/shovurma.jpg'
+      },
+      {
+        id: 'l8',
+        cat: 'lavash',
+        name: 'Shovurma Extra',
+        desc: "Ko'proq go'shtli shirin shovurma",
+        price: 38000,
+        img: 'assets/foods/shovurma.jpg'
+      },
+      {
+        id: 'l9',
+        cat: 'lavash',
+        name: 'Shovurma Cheese',
+        desc: "Pishloqli xushta'm shovurma",
+        price: 38000,
+        img: 'assets/foods/shovurma.jpg'
+      },
+      {
+        id: 'l10',
+        cat: 'lavash',
+        name: 'Shovurma Extra Cheese',
+        desc: "Katta porsiya va pishloqli shovurma",
+        price: 43000,
+        img: 'assets/foods/shovurma.jpg'
+      },
+
+      // 🍔 BURGERLAR
+      {
+        id: 'b1',
+        cat: 'burger',
+        name: 'Gamburger Oddiy',
+        desc: "Yumshoq bulochka, sharbatli mol go'shti kotleti, barra sabzavotlar va sous",
+        price: 28000,
+        img: 'assets/foods/gamburger.jpg'
+      },
+      {
+        id: 'b2',
+        cat: 'burger',
+        name: 'Gamburger Cheese (Chizburger)',
+        desc: "Erigan Chedder pishlog'i va xushbo'y go'shtli kotlet",
+        price: 33000,
+        img: 'assets/foods/gamburger.jpg',
+        badge: 'Xit'
+      },
+      {
+        id: 'b3',
+        cat: 'burger',
+        name: 'Gamburger Big',
+        desc: "Kattalashtirilgan go'shtli kotlet va to'yimli porsiya",
+        price: 43000,
+        img: 'assets/foods/gamburger.jpg'
+      },
+      {
+        id: 'b4',
+        cat: 'burger',
+        name: 'Gamburger Big Cheese',
+        desc: "Katta sershira kotlet va erigan Chedder pishlog'i",
+        price: 48000,
+        img: 'assets/foods/gamburger.jpg',
+        badge: 'Katta'
+      },
+      {
+        id: 'b5',
+        cat: 'burger',
+        name: 'Chicken Burger Oddiy',
+        desc: "Qarsildoq tovuq filesi, marul bargi va maxsus oq sous",
+        price: 25000,
+        img: 'assets/foods/chicken_burger.jpg'
+      },
+      {
+        id: 'b6',
+        cat: 'burger',
+        name: 'Chicken Burger Cheese',
+        desc: "Qarsildoq tovuq filesi va erigan pishloq",
+        price: 28000,
+        img: 'assets/foods/chicken_burger.jpg'
+      },
+      {
+        id: 'b7',
+        cat: 'burger',
+        name: 'Chicken Burger Bigger',
+        desc: "Kattalashtirilgan tovuq go'shtli burger",
+        price: 28000,
+        img: 'assets/foods/chicken_burger.jpg'
+      },
+      {
+        id: 'b8',
+        cat: 'burger',
+        name: 'Chicken Burger Cheese Bigger',
+        desc: "Katta tovuq go'shti va qo'shimcha pishloq",
+        price: 33000,
+        img: 'assets/foods/chicken_burger.jpg',
+        badge: 'Xit'
+      },
+
+      // 🌭 HOT-DOG, LONGER & SENDVICH
+      {
+        id: 'h1',
+        cat: 'hotdog',
+        name: 'Hot-dog Oddiy',
+        desc: "Klassik sosiska, barra karam salati, xantal va sous",
+        price: 8000,
+        img: 'assets/foods/hotdog.jpg'
+      },
+      {
+        id: 'h2',
+        cat: 'hotdog',
+        name: 'Hot-dog 2x',
+        desc: "Ikkita sosiskali to'yimli klassik hot-dog",
+        price: 11000,
+        img: 'assets/foods/hotdog.jpg'
+      },
+      {
+        id: 'h3',
+        cat: 'hotdog',
+        name: 'Hot-dog Canada',
+        desc: "Maxsus Canada retsepti bo'yicha sershira hot-dog",
+        price: 12000,
+        img: 'assets/foods/hotdog.jpg',
+        badge: 'Canada'
+      },
+      {
+        id: 'h4',
+        cat: 'hotdog',
+        name: 'Hot-dog Canada 2x',
+        desc: "Ikkita sosiskali Canada hot-dog",
+        price: 17000,
+        img: 'assets/foods/hotdog.jpg'
+      },
+      {
+        id: 'h5',
+        cat: 'hotdog',
+        name: "Go'shtli Hot-dog",
+        desc: "Haqiqiy mayin go'sht bo'laklari bilan tayyorlangan maxsus hot-dog",
+        price: 25000,
+        img: 'assets/foods/hotdog.jpg',
+        badge: 'Go\'shtli'
+      },
+      {
+        id: 'h6',
+        cat: 'hotdog',
+        name: 'Longer Oddiy',
+        desc: "Uzun bulochkada qarsildoq tovuq filesi va sous",
+        price: 22000,
+        img: 'assets/foods/longer.jpg'
+      },
+      {
+        id: 'h7',
+        cat: 'hotdog',
+        name: 'Longer Cheese',
+        desc: "Pishloqli qarsildoq tovuqli longer",
+        price: 26000,
+        img: 'assets/foods/longer.jpg'
+      },
+      {
+        id: 'h8',
+        cat: 'hotdog',
+        name: 'Sandwich Oddiy',
+        desc: "Toster nonda mayin to'ldirilgan issiq sendvich",
+        price: 36000,
+        img: 'assets/foods/sandwich.jpg'
+      },
+      {
+        id: 'h9',
+        cat: 'hotdog',
+        name: 'Club Sandwich',
+        desc: "Ko'p qavatli boy tarkibli klassik klab sendvich",
+        price: 45000,
+        img: 'assets/foods/sandwich.jpg',
+        badge: 'Mashhur'
+      },
+
+      // 🍗 QANOTCHA VA STRIPSLAR
+      {
+        id: 'k1',
+        cat: 'chicken',
+        name: 'Qarsildoq Strips',
+        desc: "Saralangan mayin tovuq filesidan oltinrang qarsildoq stripslar",
+        prices: { '3 dona': 20000, '5 dona': 30000, '7 dona': 40000, '1 kg': 100000 },
+        img: 'assets/foods/strips.jpg',
+        badge: 'Qarsildoq'
+      },
+      {
+        id: 'k2',
+        cat: 'chicken',
+        name: 'Qarsildoq Qanotchalar',
+        desc: "Maxsus ziravorli xushta'm oltinrang tovuq qanotlari",
+        prices: { '3 dona': 20000, '5 dona': 30000, '7 dona': 40000, '1 kg': 100000 },
+        img: 'assets/foods/qanotcha.jpg',
+        badge: 'Xit'
+      },
+
+      // ⭐ SETLAR VA MAXSUS
+      {
+        id: 's1',
+        cat: 'sets',
+        name: 'ASL Food Maxsus Taomi',
+        desc: "ASL FOOD brendining maxsus boy va to'yimli sho'hona taomi",
+        prices: { 'Oddiy': 55000, 'Extra': 65000 },
+        img: 'assets/foods/asl_food.jpg',
+        badge: 'Brend Taom'
+      },
+      {
+        id: 's2',
+        cat: 'sets',
+        name: 'KFC Box Set',
+        desc: "5 dona qanotcha + 5 dona strips + Kartoshka fri. To'liq oilaviy to'plam!",
+        price: 70000,
+        img: 'assets/foods/kfc_box.jpg',
+        badge: 'Super Set'
+      },
+
+      // 🍟 GAZAKLAR
+      {
+        id: 'g1',
+        cat: 'snacks',
+        name: 'Kartoshka Fri',
+        desc: "Oltinrang qovurilgan qarsildoq kartoshka",
+        prices: { 'Kichik': 10000, 'Katta': 15000 },
+        img: 'assets/foods/fri.jpg'
+      },
+      {
+        id: 'g2',
+        cat: 'snacks',
+        name: 'Kurinye Shariki',
+        desc: "Mayin tovuq go'shtidan dumaloq qarsildoq sharchalar",
+        price: 15000,
+        img: 'assets/foods/strips.jpg',
+        badge: 'Yangi'
+      }
+    ];
+
+    // Narxni so'm formatida chiqarish (1000 -> "1 000 so'm")
+    function formatUzs(num) {
+      return num.toLocaleString('uz-UZ').replace(/,/g, ' ') + " so'm";
+    }
+
+    // SAVATCHA (Cart) TIZIMI
+    let cart = [];
+    try {
+      const saved = localStorage.getItem('aslfood_cart');
+      if (saved) cart = JSON.parse(saved);
+    } catch(e) {}
+
+    function saveCart() {
+      try {
+        localStorage.setItem('aslfood_cart', JSON.stringify(cart));
+      } catch(e) {}
+      updateCartUI();
+    }
+
+    function addToCart(itemId, variantName) {
+      const item = MENU_ITEMS.find(i => i.id === itemId);
+      if (!item) return;
+
+      let key = itemId;
+      let title = item.name;
+      let price = item.price;
+
+      if (item.prices) {
+        const v = variantName || Object.keys(item.prices)[0];
+        key = `${itemId}_${v}`;
+        title = `${item.name} (${v})`;
+        price = item.prices[v];
+      }
+
+      const existing = cart.find(ci => ci.key === key);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({
+          key: key,
+          itemId: itemId,
+          title: title,
+          price: price,
+          qty: 1
+        });
+      }
+      saveCart();
+      showToast(`${title} savatga qo'shildi! 🛒`);
+    }
+
+    function updateCartQty(key, delta) {
+      const idx = cart.findIndex(ci => ci.key === key);
+      if (idx !== -1) {
+        cart[idx].qty += delta;
+        if (cart[idx].qty <= 0) {
+          cart.splice(idx, 1);
+        }
+      }
+      saveCart();
+    }
+
+    function removeFromCart(key) {
+      cart = cart.filter(ci => ci.key !== key);
+      saveCart();
+    }
+
+    function updateCartUI() {
+      const totalQty = cart.reduce((acc, i) => acc + i.qty, 0);
+      const totalPrice = cart.reduce((acc, i) => acc + (i.price * i.qty), 0);
+
+      // Header cart badge
+      const headerBadge = document.getElementById('headerCartCount');
+      if (totalQty > 0) {
+        headerBadge.textContent = totalQty;
+        headerBadge.classList.remove('hidden');
+      } else {
+        headerBadge.classList.add('hidden');
+      }
+
+      // Floating cart bar
+      const floatingBar = document.getElementById('floatingCartBar');
+      const floatingText = document.getElementById('floatingCartText');
+      const floatingTotal = document.getElementById('floatingCartTotal');
+
+      if (totalQty > 0) {
+        floatingBar.classList.remove('hidden');
+        floatingText.textContent = `${totalQty} ta taom savatchada`;
+        floatingTotal.textContent = formatUzs(totalPrice);
+      } else {
+        floatingBar.classList.add('hidden');
+      }
+
+      // Modal ichidagi savat
+      const listEl = document.getElementById('cartItemsList');
+      const emptyView = document.getElementById('emptyCartView');
+      const formEl = document.getElementById('cartOrderForm');
+      const totalEl = document.getElementById('cartTotalPrice');
+
+      if (totalQty === 0) {
+        listEl.innerHTML = '';
+        emptyView.classList.remove('hidden');
+        formEl.classList.add('hidden');
+        totalEl.textContent = "0 so'm";
+      } else {
+        emptyView.classList.add('hidden');
+        formEl.classList.remove('hidden');
+        totalEl.textContent = formatUzs(totalPrice);
+
+        listEl.innerHTML = cart.map(ci => `
+          <div class="p-2.5 rounded-xl bg-orange-500/5 dark:bg-zinc-800/60 border border-orange-500/15 flex items-center justify-between gap-2">
+            <div class="flex-1 min-w-0 text-left">
+              <h5 class="text-xs font-bold text-slate-900 dark:text-white truncate">${ci.title}</h5>
+              <span class="text-[11px] font-semibold text-orange-600 dark:text-orange-400">
+                ${formatUzs(ci.price)} x ${ci.qty} = <span class="font-black">${formatUzs(ci.price * ci.qty)}</span>
+              </span>
+            </div>
+            <div class="flex items-center gap-1.5 shrink-0">
+              <button onclick="window.__updateQty('${ci.key}', -1)" class="w-6 h-6 rounded-lg glass-pill text-xs font-bold flex items-center justify-center hover:bg-red-500 hover:text-white active:scale-95 transition-all">-</button>
+              <span class="text-xs font-black w-5 text-center">${ci.qty}</span>
+              <button onclick="window.__updateQty('${ci.key}', 1)" class="w-6 h-6 rounded-lg glass-pill text-xs font-bold flex items-center justify-center hover:bg-emerald-500 hover:text-white active:scale-95 transition-all">+</button>
+              <button onclick="window.__removeCart('${ci.key}')" class="w-6 h-6 rounded-lg text-slate-400 hover:text-red-500 flex items-center justify-center text-xs ml-1 transition-colors">
+                <i class="fa-regular fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    window.__updateQty = updateCartQty;
+    window.__removeCart = removeFromCart;
+    window.__addToCart = addToCart;
+
+    // ASOSIY SAHIFA ISHLASH MANTIQI
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+      // ======================================================
+      // 1. REJIM ALMASHTIRISH (Dark / Light Theme)
+      // ======================================================
+      const htmlEl = document.documentElement;
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      const themeIcon = document.getElementById('themeIcon');
+      const savedTheme = localStorage.getItem('aslfood_theme');
+
+      if (savedTheme === 'light') {
+        htmlEl.classList.remove('dark');
+        themeIcon.className = 'fa-solid fa-sun text-amber-500 text-base';
+      } else {
+        htmlEl.classList.add('dark');
+        themeIcon.className = 'fa-solid fa-moon text-orange-400 text-base';
+      }
+
+      themeToggleBtn.addEventListener('click', () => {
+        const isDark = htmlEl.classList.toggle('dark');
+        if (isDark) {
+          localStorage.setItem('aslfood_theme', 'dark');
+          themeIcon.className = 'fa-solid fa-moon text-orange-400 text-base';
+          showToast('Tungi rejim faollashtirildi 🌙');
+        } else {
+          localStorage.setItem('aslfood_theme', 'light');
+          themeIcon.className = 'fa-solid fa-sun text-amber-500 text-base';
+          showToast('Kungi rejim faollashtirildi ☀️');
+        }
+      });
+
+      // ======================================================
+      // 2. TOAST BILDIRISHNOMA
+      // ======================================================
+      const toast = document.getElementById('toastNotification');
+      const toastMessage = document.getElementById('toastMessage');
+      let toastTimer = null;
+
+      function showToast(msg) {
+        if (toastTimer) clearTimeout(toastTimer);
+        toastMessage.textContent = msg;
+        toast.classList.remove('opacity-0', 'pointer-events-none', '-translate-y-2');
+        toast.classList.add('opacity-100', 'translate-y-0');
+
+        toastTimer = setTimeout(() => {
+          toast.classList.add('opacity-0', 'pointer-events-none', '-translate-y-2');
+          toast.classList.remove('opacity-100', 'translate-y-0');
+        }, 2500);
+      }
+      window.__showToast = showToast;
+
+      // ======================================================
+      // 3. HAVOLANI ULASHISH (Share / Copy)
+      // ======================================================
+      const copyLinkBtn = document.getElementById('copyLinkBtn');
+      const copyModalLinkBtn = document.getElementById('copyModalLinkBtn');
+
+      async function shareOrCopy() {
+        const url = window.location.href;
+        if (navigator.share && /mobile|android|iphone/i.test(navigator.userAgent)) {
+          try {
+            await navigator.share({
+              title: "ASL FOOD OILAVIY",
+              text: "ASL FOOD Kafe menyusi va buyurtma: +998 94 448 00 92",
+              url: url
+            });
+            return;
+          } catch(e) {}
+        }
+
+        try {
+          if (navigator.clipboard) {
+            await navigator.clipboard.writeText(url);
+          } else {
+            const input = document.createElement('input');
+            input.value = url;
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+          }
+          showToast('Havola nusxalandi! 📋');
+        } catch(e) {
+          showToast('Nusxalab bo\'lmadi');
+        }
+      }
+
+      copyLinkBtn.addEventListener('click', shareOrCopy);
+      copyModalLinkBtn.addEventListener('click', shareOrCopy);
+
+      // ======================================================
+      // 4. MODALLARNI BOSHQARISH
+      // ======================================================
+      function openModal(modal, card) {
+        modal.classList.remove('opacity-0', 'pointer-events-none');
+        modal.classList.add('opacity-100');
+        card.classList.remove('scale-95');
+        card.classList.add('scale-100');
+      }
+
+      function closeModal(modal, card) {
+        modal.classList.add('opacity-0', 'pointer-events-none');
+        modal.classList.remove('opacity-100');
+        card.classList.add('scale-95');
+        card.classList.remove('scale-100');
+      }
+
+      // QR Kod modali
+      const qrCodeBtn = document.getElementById('qrCodeBtn');
+      const qrModal = document.getElementById('qrModal');
+      const qrModalCard = document.getElementById('qrModalCard');
+      const closeQrModalBtn = document.getElementById('closeQrModalBtn');
+      const qrImage = document.getElementById('qrImage');
+      const downloadQrBtn = document.getElementById('downloadQrBtn');
+
+      const qrTarget = encodeURIComponent(window.location.href || 'https://t.me/ASL_FOOD_OILAVIY');
+      const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&format=png&data=${qrTarget}`;
+      qrImage.src = qrUrl;
+
+      qrCodeBtn.addEventListener('click', () => openModal(qrModal, qrModalCard));
+      closeQrModalBtn.addEventListener('click', () => closeModal(qrModal, qrModalCard));
+      qrModal.addEventListener('click', (e) => {
+        if (e.target === qrModal) closeModal(qrModal, qrModalCard);
+      });
+
+      downloadQrBtn.addEventListener('click', async () => {
+        try {
+          const res = await fetch(qrUrl);
+          const blob = await res.blob();
+          const link = document.createElement('a');
+          link.href = URL.createObjectURL(blob);
+          link.download = 'asl-food-qr.png';
+          link.click();
+          showToast('QR Kod saqlandi! 📥');
+        } catch (e) {
+          window.open(qrUrl, '_blank');
+        }
+      });
+
+      // Original menyu modali
+      const openOriginalMenuBtn = document.getElementById('openOriginalMenuBtn');
+      const originalMenuModal = document.getElementById('originalMenuModal');
+      const originalMenuCard = document.getElementById('originalMenuCard');
+      const closeOriginalMenuBtn = document.getElementById('closeOriginalMenuBtn');
+
+      openOriginalMenuBtn.addEventListener('click', () => openModal(originalMenuModal, originalMenuCard));
+      closeOriginalMenuBtn.addEventListener('click', () => closeModal(originalMenuModal, originalMenuCard));
+      originalMenuModal.addEventListener('click', (e) => {
+        if (e.target === originalMenuModal) closeModal(originalMenuModal, originalMenuCard);
+      });
+
+      // Savatcha modali
+      const cartModal = document.getElementById('cartModal');
+      const cartModalCard = document.getElementById('cartModalCard');
+      const openCartBtn = document.getElementById('openCartBtn');
+      const headerCartBtn = document.getElementById('headerCartBtn');
+      const closeCartBtn = document.getElementById('closeCartBtn');
+
+      openCartBtn.addEventListener('click', () => openModal(cartModal, cartModalCard));
+      headerCartBtn.addEventListener('click', () => openModal(cartModal, cartModalCard));
+      closeCartBtn.addEventListener('click', () => closeModal(cartModal, cartModalCard));
+      cartModal.addEventListener('click', (e) => {
+        if (e.target === cartModal) closeModal(cartModal, cartModalCard);
+      });
+
+      // ======================================================
+      // 5. SAVATCHADAN TELEGRAMGA BUYURTMA YUBORISH
+      // ======================================================
+      const sendOrderTelegramBtn = document.getElementById('sendOrderTelegramBtn');
+      const custName = document.getElementById('custName');
+      const custPhone = document.getElementById('custPhone');
+      const deliveryType = document.getElementById('deliveryType');
+      const custAddress = document.getElementById('custAddress');
+
+      sendOrderTelegramBtn.addEventListener('click', () => {
+        if (cart.length === 0) {
+          showToast('Savatchangiz bo\'sh!');
+          return;
+        }
+
+        const name = custName.value.trim() || 'Mijoz';
+        const phone = custPhone.value.trim() || 'Ko\'rsatilmadi';
+        const dType = deliveryType.value;
+        const address = custAddress.value.trim() || (dType.includes('Taksi') ? 'Navbaxor' : 'Kafedan olib ketish');
+
+        const total = cart.reduce((acc, i) => acc + (i.price * i.qty), 0);
+
+        let lines = [];
+        lines.push(`🍕 ASL FOOD OILAVIY — Yangi Buyurtma!`);
+        lines.push(`---------------------------------`);
+        cart.forEach((item, index) => {
+          lines.push(`${index + 1}. ${item.title} x ${item.qty} = ${formatUzs(item.price * item.qty)}`);
+        });
+        lines.push(`---------------------------------`);
+        lines.push(`💵 Jami to'lov: ${formatUzs(total)}`);
+        lines.push(`👤 Buyurtmachi: ${name}`);
+        lines.push(`📞 Telefon: ${phone}`);
+        lines.push(`📍 Yetkazish: ${dType}`);
+        lines.push(`🏠 Manzil: ${address}`);
+        lines.push(`🚕 To'lov: Naqd / Karta (qabul qilinganda)`);
+
+        const text = encodeURIComponent(lines.join('\n'));
+        const tgUrl = `https://t.me/ASL_FOOD_OILAVIY?text=${text}`;
+
+        window.open(tgUrl, '_blank');
+        closeModal(cartModal, cartModalCard);
+        showToast('Buyurtma Telegramga tayyorlandi! 🚀');
+      });
+
+      // ======================================================
+      // 6. REELS VIDEO PLEER MODALI
+      // ======================================================
+      const videoModal = document.getElementById('videoModal');
+      const videoModalCard = document.getElementById('videoModalCard');
+      const closeVideoBtn = document.getElementById('closeVideoBtn');
+      const reelsVideoPlayer = document.getElementById('reelsVideoPlayer');
+      const toggleVideoMuteBtn = document.getElementById('toggleVideoMuteBtn');
+      const muteIcon = document.getElementById('muteIcon');
+      const videoModalTitle = document.getElementById('videoModalTitle');
+      const videoModalDesc = document.getElementById('videoModalDesc');
+      const videoOrderBtn = document.getElementById('videoOrderBtn');
+
+      let currentReelTitle = '';
+
+      window.__playReel = function(src, title, desc) {
+        currentReelTitle = title;
+        videoModalTitle.textContent = title;
+        videoModalDesc.textContent = desc;
+        reelsVideoPlayer.src = src;
+        reelsVideoPlayer.muted = false;
+        muteIcon.className = 'fa-solid fa-volume-high';
+
+        openModal(videoModal, videoModalCard);
+        reelsVideoPlayer.play().catch(() => {
+          // autoplay policy
+          reelsVideoPlayer.muted = true;
+          muteIcon.className = 'fa-solid fa-volume-xmark';
+          reelsVideoPlayer.play();
+        });
+      };
+
+      function stopReel() {
+        reelsVideoPlayer.pause();
+        reelsVideoPlayer.src = '';
+        closeModal(videoModal, videoModalCard);
+      }
+
+      closeVideoBtn.addEventListener('click', stopReel);
+      videoModal.addEventListener('click', (e) => {
+        if (e.target === videoModal) stopReel();
+      });
+
+      toggleVideoMuteBtn.addEventListener('click', () => {
+        reelsVideoPlayer.muted = !reelsVideoPlayer.muted;
+        muteIcon.className = reelsVideoPlayer.muted ? 'fa-solid fa-volume-xmark' : 'fa-solid fa-volume-high';
+      });
+
+      videoOrderBtn.addEventListener('click', () => {
+        stopReel();
+        // Savatchani ochamiz
+        openModal(cartModal, cartModalCard);
+        showToast(`"${currentReelTitle}" bo'yicha savatchadan buyurtma berishingiz mumkin`);
+      });
+
+      // Escape tugmasi
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeModal(qrModal, qrModalCard);
+          closeModal(originalMenuModal, originalMenuCard);
+          closeModal(cartModal, cartModalCard);
+          stopReel();
+        }
+      });
+
+      // ======================================================
+      // 7. MENYU RENDER VA QIDIRUV / FILTER
+      // ======================================================
+      const menuContainer = document.getElementById('menuContainer');
+      const menuCountBadge = document.getElementById('menuCountBadge');
+      const menuSearchInput = document.getElementById('menuSearchInput');
+      const clearSearchBtn = document.getElementById('clearSearchBtn');
+      const noResultsState = document.getElementById('noResultsState');
+      const categoryPills = document.querySelectorAll('.cat-pill');
+
+      let currentCat = 'all';
+      let searchQuery = '';
+
+      function renderMenu() {
+        const filtered = MENU_ITEMS.filter(item => {
+          const matchCat = (currentCat === 'all' || item.cat === currentCat);
+          const matchSearch = searchQuery === '' || 
+            item.name.toLowerCase().includes(searchQuery) || 
+            item.desc.toLowerCase().includes(searchQuery);
+          return matchCat && matchSearch;
+        });
+
+        menuCountBadge.textContent = `${filtered.length} ta taom`;
+
+        if (filtered.length === 0) {
+          menuContainer.innerHTML = '';
+          noResultsState.classList.remove('hidden');
+          return;
+        }
+
+        noResultsState.classList.add('hidden');
+
+        menuContainer.innerHTML = filtered.map(item => {
+          // Nishon (Badge)
+          const badgeHtml = item.badge ? `
+            <span class="text-[9px] font-black uppercase px-2 py-0.5 rounded-md bg-gradient-to-r from-red-600 via-orange-500 to-amber-500 text-white tracking-wider shadow-sm">
+              ${item.badge}
+            </span>
+          ` : '';
+
+          // Narx bloki
+          let actionHtml = '';
+          if (item.prices) {
+            const variants = Object.entries(item.prices);
+            actionHtml = `
+              <div class="mt-3 pt-2.5 border-t border-slate-200/50 dark:border-zinc-800/80">
+                <span class="text-[10px] font-bold uppercase text-slate-400 dark:text-slate-500 block mb-1.5">O'lchamni tanlang:</span>
+                <div class="flex flex-wrap gap-1.5 items-center">
+                  ${variants.map(([name, price]) => `
+                    <button 
+                      onclick="window.__addToCart('${item.id}', '${name}')"
+                      class="px-2.5 py-1.5 rounded-xl bg-orange-500/10 dark:bg-orange-500/20 hover:bg-orange-600 hover:text-white dark:hover:bg-orange-600 text-orange-600 dark:text-orange-400 text-[11px] font-bold border border-orange-500/25 transition-all flex items-center gap-1 active:scale-95 shadow-sm">
+                      <i class="fa-solid fa-plus text-[9px]"></i>
+                      <span>${name}:</span>
+                      <span class="font-black">${formatUzs(price)}</span>
+                    </button>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          } else {
+            actionHtml = `
+              <div class="mt-3 flex items-center justify-between gap-2">
+                <span class="text-sm font-black text-orange-600 dark:text-orange-400">
+                  ${formatUzs(item.price)}
+                </span>
+                <button 
+                  onclick="window.__addToCart('${item.id}')"
+                  class="px-4 py-1.5 rounded-xl bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 active:scale-95 text-white text-xs font-black shadow-md shadow-orange-600/30 transition-all flex items-center gap-1.5">
+                  <i class="fa-solid fa-cart-plus text-xs"></i>
+                  <span>Savatga</span>
+                </button>
+              </div>
+            `;
+          }
+
+          return `
+            <div class="group glass-card p-3 sm:p-3.5 rounded-3xl shadow-sm hover:shadow-xl hover:border-orange-500/40 hover:-translate-y-0.5 transition-all duration-300">
+              <div class="flex items-center gap-3.5">
+                <!-- Ishtaha ochuvchi taom fotosurati -->
+                <div class="relative w-24 h-24 sm:w-28 sm:h-28 shrink-0 rounded-2xl overflow-hidden bg-zinc-950 shadow-md border border-orange-500/20 group-hover:scale-105 transition-transform duration-300">
+                  <img 
+                    src="${item.img || 'assets/brand_badge_purple.png'}" 
+                    alt="${item.name}" 
+                    class="w-full h-full object-cover group-hover:brightness-105 transition-all" 
+                    loading="lazy" 
+                  />
+                  ${item.badge ? `
+                    <span class="absolute top-1.5 left-1.5 text-[8px] font-black uppercase px-1.5 py-0.5 rounded bg-red-600 text-white shadow-md">
+                      ${item.badge}
+                    </span>
+                  ` : ''}
+                </div>
+
+                <!-- Taom ma'lumotlari -->
+                <div class="flex-1 min-w-0 text-left">
+                  <div class="flex items-center justify-between gap-1 mb-1">
+                    <h3 class="text-xs sm:text-sm font-black text-slate-900 dark:text-white truncate group-hover:text-orange-500 transition-colors">
+                      ${item.name}
+                    </h3>
+                  </div>
+                  <p class="text-[11px] text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
+                    ${item.desc}
+                  </p>
+                  ${!item.prices ? actionHtml : ''}
+                </div>
+              </div>
+              ${item.prices ? actionHtml : ''}
+            </div>
+          `;
+        }).join('');
+      }
+
+      // Kategoriya tugmalari
+      categoryPills.forEach(btn => {
+        btn.addEventListener('click', () => {
+          categoryPills.forEach(b => {
+            b.classList.remove('bg-orange-600', 'text-white', 'shadow-md', 'shadow-orange-600/30');
+            b.classList.add('glass-pill', 'text-slate-600', 'dark:text-slate-300');
+          });
+          btn.classList.remove('glass-pill', 'text-slate-600', 'dark:text-slate-300');
+          btn.classList.add('bg-orange-600', 'text-white', 'shadow-md', 'shadow-orange-600/30');
+
+          currentCat = btn.getAttribute('data-cat');
+          renderMenu();
+        });
+      });
+
+      // Qidiruv
+      menuSearchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.trim().toLowerCase();
+        if (searchQuery.length > 0) {
+          clearSearchBtn.classList.remove('hidden');
+        } else {
+          clearSearchBtn.classList.add('hidden');
+        }
+        renderMenu();
+      });
+
+      clearSearchBtn.addEventListener('click', () => {
+        menuSearchInput.value = '';
+        searchQuery = '';
+        clearSearchBtn.classList.add('hidden');
+        renderMenu();
+        menuSearchInput.focus();
+      });
+
+      // Boshlang'ich render va savatcha yuklash
+      renderMenu();
+      updateCartUI();
+
+    });
+  </script>
+</body>
+</html>

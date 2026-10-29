@@ -1,0 +1,20 @@
+# Git ignore
+.DS_Store
+Thumbs.db
+node_modules/
+*.tmp
+
+# Raw video, design drafts and document files
+/*.mp4
+/*.pdf
+/*.doc
+/*.jpg
+Claude outputs/
+tayyor/
+test_*.py
+list_items.py
+Новая папка/
+
+# Large files and raw SVG exports
+assets/brand-book.pdf
+assets/page_*.svg

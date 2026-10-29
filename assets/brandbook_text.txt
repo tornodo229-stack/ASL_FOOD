@@ -1,0 +1,140 @@
+=== PAGE 1 ===
+
+
+=== PAGE 2 ===
+Brend
+Ko'rsatmalari
+
+
+=== PAGE 3 ===
+01 Logo dizayn
+Logo
+Bizning logotipimiz boshqa grafik
+komponentlardan ajralib turishi uchun
+istisno zonasi muhim ahamiyatga ega.
+iltimos, barcha elementlarni belgilangan
+istisno zonasidan uzoqroq tuting.
+tezkor
+yangi
+qaynoq
+
+
+=== PAGE 4 ===
+02 Altirnatif Ranglar
+
+
+=== PAGE 5 ===
+03 Cheklovlar
+Logotipni foydalanish mumkin
+bo’lgan turlari:
+
+
+=== PAGE 6 ===
+04 Cheklovlar
+Logotipni foydalanish mumkin
+bo’lmagan turlari:
+Asl Food
+
+
+=== PAGE 7 ===
+05 Ranglar Palirasi
+HEX               #F26C45
+HSB               12, 71%, 94%
+RGB               242, 108, 69
+CMYK           0%, 72%, 78%, 0%,
+HEX               #F68A24
+HSB               28, 85%, 96%
+RGB               246, 138, 36 
+CMYK           0%, 55%, 97%, 0%,
+HEX               #662C8E
+HSB               275, 68%, 55%
+RGB               102, 44, 142
+CMYK           75%, 100%, 1%, 0%,
+
+
+=== PAGE 8 ===
+06 Tipograﬁya
+ Asosiy shrift
+Naulus Pompilius
+Aa Bb Cc Dd Ee Ff
+Gg Hh Ii Jj Kk Ll Mm
+Nn Oo Pp Qq Rr Ss
+Tt Uu Vv Ww Xx Yy Zz
+0 1 2 3 4 5 6 7 8 9
+! @ # % ( ) < ? ; “ |\
+Aa
+ Altirnatif shrift
+Neue June
+Aa Bb Cc Dd Ee Ff
+Gg Hh Ii Jj Kk Ll Mm
+Nn Oo Pp Qq Rr Ss
+Tt Uu Vv Ww Xx Yy Zz
+0 1 2 3 4 5 6 7 8 9
+! @ # % ( ) < ? ; “ |\
+Aa
+
+
+=== PAGE 9 ===
+07 Brend Pattern
+
+
+=== PAGE 10 ===
+
+
+=== PAGE 11 ===
+
+
+=== PAGE 12 ===
+
+
+=== PAGE 13 ===
+
+
+=== PAGE 14 ===
+
+
+=== PAGE 15 ===
+
+
+=== PAGE 16 ===
+
+
+=== PAGE 17 ===
+
+
+=== PAGE 18 ===
+
+
+=== PAGE 19 ===
+
+
+=== PAGE 20 ===
+
+
+=== PAGE 21 ===
+
+
+=== PAGE 22 ===
+
+
+=== PAGE 23 ===
+
+
+=== PAGE 24 ===
+
+
+=== PAGE 25 ===
+
+
+=== PAGE 26 ===
+
+
+=== PAGE 27 ===
+
+
+=== PAGE 28 ===
+
+
+=== PAGE 29 ===
+
+
