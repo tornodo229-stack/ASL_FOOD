@@ -789,7 +789,7 @@
   <script>
     // ASL FOOD HAQIQIY TAOMNOMA BAZASI (Rasmlar & A3 Menyu)
     const MENU_ITEMS = [
-      // 🍕 PITSALAR
+      // 🍕 PITSALAR (Chop etilgan Pitsa menyusidan)
       {
         id: 'p1',
         cat: 'pizza',
@@ -843,7 +843,7 @@
         badge: 'Maxsus'
       },
 
-      // 🌯 LAVASH VA SHOVURMA
+      // 🌯 LAVASH VA SHOVURMA (Chop etilgan Fast food menyusidan)
       {
         id: 'l1',
         cat: 'lavash',
@@ -868,7 +868,7 @@
         desc: "Erigan qalin Chedder pishlog'i va mazali barra go'sht",
         price: 43000,
         img: 'assets/foods/lavash.jpg',
-        badge: 'Xit'
+        badge: 'Pishloqli'
       },
       {
         id: 'l4',
@@ -876,7 +876,8 @@
         name: 'Lavash Extra Cheese',
         desc: "Ikki hissa pishloq va mo'l go'shtli haqiqiy lazzat",
         price: 50000,
-        img: 'assets/foods/lavash.jpg'
+        img: 'assets/foods/lavash.jpg',
+        badge: '2x Pishloq'
       },
       {
         id: 'l5',
@@ -893,7 +894,8 @@
         name: 'Tandir Lavash Extra',
         desc: "Tandirda pishirilgan mo'l go'shtli to'yimli lavash",
         price: 46000,
-        img: 'assets/foods/lavash.jpg'
+        img: 'assets/foods/lavash.jpg',
+        badge: 'Tandir Extra'
       },
       {
         id: 'l7',
@@ -909,7 +911,8 @@
         name: 'Shovurma Extra',
         desc: "Ko'proq go'shtli shirin shovurma",
         price: 38000,
-        img: 'assets/foods/shovurma.jpg'
+        img: 'assets/foods/shovurma.jpg',
+        badge: "Ko'p go'sht"
       },
       {
         id: 'l9',
@@ -917,18 +920,20 @@
         name: 'Shovurma Cheese',
         desc: "Pishloqli xushta'm shovurma",
         price: 38000,
-        img: 'assets/foods/shovurma.jpg'
+        img: 'assets/foods/shovurma.jpg',
+        badge: 'Pishloqli'
       },
       {
         id: 'l10',
         cat: 'lavash',
         name: 'Shovurma Extra Cheese',
-        desc: "Katta porsiya va pishloqli shovurma",
+        desc: "Katta porsiya va ikki hissa pishloqli shovurma",
         price: 43000,
-        img: 'assets/foods/shovurma.jpg'
+        img: 'assets/foods/shovurma.jpg',
+        badge: '2x Pishloq'
       },
 
-      // 🍔 BURGERLAR
+      // 🍔 BURGERLAR (Chop etilgan Fast food menyusidan)
       {
         id: 'b1',
         cat: 'burger',
@@ -941,10 +946,10 @@
         id: 'b2',
         cat: 'burger',
         name: 'Gamburger Cheese (Chizburger)',
-        desc: "Erigan Chedder pishlog'i va xushbo'y go'shtli kotlet",
+        desc: "Erigan Chedder pishlog'i va sershira mol go'shti",
         price: 33000,
         img: 'assets/foods/gamburger.jpg',
-        badge: 'Xit'
+        badge: 'Pishloqli'
       },
       {
         id: 'b3',
@@ -952,7 +957,8 @@
         name: 'Gamburger Big',
         desc: "Kattalashtirilgan go'shtli kotlet va to'yimli porsiya",
         price: 43000,
-        img: 'assets/foods/gamburger.jpg'
+        img: 'assets/foods/gamburger.jpg',
+        badge: 'Big Burger'
       },
       {
         id: 'b4',
@@ -961,7 +967,7 @@
         desc: "Katta sershira kotlet va erigan Chedder pishlog'i",
         price: 48000,
         img: 'assets/foods/gamburger.jpg',
-        badge: 'Katta'
+        badge: 'Big Cheese'
       },
       {
         id: 'b5',
@@ -977,7 +983,8 @@
         name: 'Chicken Burger Cheese',
         desc: "Qarsildoq tovuq filesi va erigan pishloq",
         price: 28000,
-        img: 'assets/foods/chicken_burger.jpg'
+        img: 'assets/foods/chicken_burger.jpg',
+        badge: 'Pishloqli'
       },
       {
         id: 'b7',
@@ -985,7 +992,8 @@
         name: 'Chicken Burger Bigger',
         desc: "Kattalashtirilgan tovuq go'shtli burger",
         price: 28000,
-        img: 'assets/foods/chicken_burger.jpg'
+        img: 'assets/foods/chicken_burger.jpg',
+        badge: 'Bigger'
       },
       {
         id: 'b8',
@@ -994,10 +1002,10 @@
         desc: "Katta tovuq go'shti va qo'shimcha pishloq",
         price: 33000,
         img: 'assets/foods/chicken_burger.jpg',
-        badge: 'Xit'
+        badge: 'Cheese Bigger'
       },
 
-      // 🌭 HOT-DOG, LONGER & SENDVICH
+      // 🌭 HOT-DOG, LONGER & SENDVICH (Chop etilgan Fast food menyusidan)
       {
         id: 'h1',
         cat: 'hotdog',
@@ -1012,7 +1020,8 @@
         name: 'Hot-dog 2x',
         desc: "Ikkita sosiskali to'yimli klassik hot-dog",
         price: 11000,
-        img: 'assets/foods/hotdog.jpg'
+        img: 'assets/foods/hotdog.jpg',
+        badge: '2x Sosiska'
       },
       {
         id: 'h3',
@@ -1029,7 +1038,8 @@
         name: 'Hot-dog Canada 2x',
         desc: "Ikkita sosiskali Canada hot-dog",
         price: 17000,
-        img: 'assets/foods/hotdog.jpg'
+        img: 'assets/foods/hotdog.jpg',
+        badge: 'Canada 2x'
       },
       {
         id: 'h5',
@@ -1038,7 +1048,7 @@
         desc: "Haqiqiy mayin go'sht bo'laklari bilan tayyorlangan maxsus hot-dog",
         price: 25000,
         img: 'assets/foods/hotdog.jpg',
-        badge: 'Go\'shtli'
+        badge: "Go'shtli"
       },
       {
         id: 'h6',
@@ -1054,7 +1064,8 @@
         name: 'Longer Cheese',
         desc: "Pishloqli qarsildoq tovuqli longer",
         price: 26000,
-        img: 'assets/foods/longer.jpg'
+        img: 'assets/foods/longer.jpg',
+        badge: 'Pishloqli'
       },
       {
         id: 'h8',
@@ -1071,10 +1082,10 @@
         desc: "Ko'p qavatli boy tarkibli klassik klab sendvich",
         price: 45000,
         img: 'assets/foods/sandwich.jpg',
-        badge: 'Mashhur'
+        badge: 'Klab'
       },
 
-      // 🍗 QANOTCHA VA STRIPSLAR
+      // 🍗 QANOTCHA VA STRIPSLAR (Chop etilgan Fast food menyusidan)
       {
         id: 'k1',
         cat: 'chicken',
@@ -1094,7 +1105,7 @@
         badge: 'Xit'
       },
 
-      // ⭐ SETLAR VA MAXSUS
+      // ⭐ SETLAR VA MAXSUS (Chop etilgan Fast food menyusidan)
       {
         id: 's1',
         cat: 'sets',
@@ -1114,7 +1125,7 @@
         badge: 'Super Set'
       },
 
-      // 🍟 GAZAKLAR
+      // 🍟 GAZAKLAR (Chop etilgan Fast food menyusidan)
       {
         id: 'g1',
         cat: 'snacks',
@@ -1129,7 +1140,7 @@
         name: 'Kurinye Shariki',
         desc: "Mayin tovuq go'shtidan dumaloq qarsildoq sharchalar",
         price: 15000,
-        img: 'assets/foods/strips.jpg',
+        img: 'assets/foods/fri.jpg',
         badge: 'Yangi'
       }
     ];
@@ -1625,7 +1636,7 @@
                 <!-- Ishtaha ochuvchi taom fotosurati -->
                 <div class="relative w-24 h-24 sm:w-28 sm:h-28 shrink-0 rounded-2xl overflow-hidden bg-zinc-950 shadow-md border border-orange-500/20 group-hover:scale-105 transition-transform duration-300">
                   <img 
-                    src="${item.img || 'assets/brand_badge_purple.png'}" 
+                    src="${item.img || 'assets/brand_badge_purple.png'}" onerror="this.onerror=null; this.src='assets/brand_badge_purple.png';" 
                     alt="${item.name}" 
                     class="w-full h-full object-cover group-hover:brightness-105 transition-all" 
                     loading="lazy" 

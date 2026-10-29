@@ -18,3 +18,4 @@ list_items.py
 # Large files and raw SVG exports
 assets/brand-book.pdf
 assets/page_*.svg
+wiki_*.py
